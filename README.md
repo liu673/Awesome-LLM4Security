@@ -31,6 +31,7 @@
 | CVE2TTP                                         | 一种从网络安全文本资源中评估、注释和提取威胁信息的自动化方法，以在 SecureBERT 之上开发模型，将 CVE 分类为 TTP。 | [CVE2TTP](https://github.com/ehsanaghaei/CVE2TTP)            |
 | SecureBERT                                      | 一种用于表示网络安全文本数据的特定领域语言模型。             | [SecureBERT](https://github.com/ehsanaghaei/SecureBERT)<br />[SecureBERT-plus](https://github.com/ehsanaghaei/SecureBERT-plus)<br />[SecureDeBERTa](https://github.com/ehsanaghaei/SecureDeBERTa)<br />[SecureGPT](https://github.com/ehsanaghaei/SecureGPT) |
 | Finetuning_SecurityLLM                          | 基于BERT微调的网络威胁检测系统                               | [Finetuning_SecurityLLM](https://github.com/GeorgeNhj/Finetuning_SecurityLLM) |
+| ART                                             | 用于机器学习安全的 Python 库。ART 提供的工具使开发人员和研究人员能够评估、防御、认证和验证机器学习模型和应用程序，以抵御规避、中毒、提取和推理等对抗性威胁。 | [Adversarial Robustness Toolbox : document](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)<br />[Adversarial Robustness Toolbox (ART) v1.17](https://github.com/Trusted-AI/adversarial-robustness-toolbox) |
 | flipkart_project                                | 使用大型语言模型进行自动合规性监控（LLMs）”项目，利用 BERT 和 RoBERTa 等尖端LLMs技术的力量，彻底改变合规性监控和实施 | [flipkart_project](https://github.com/Gauriiikaaa/flipkart_project) |
 | PentestGPT                                      | 支持 GPT 的渗透测试工具                                      | [PentestGPT](https://github.com/GreyDGL/PentestGPT)          |
 | WhiteRabbitNeo                                  | 一个可用于进攻和防御网络安全的模型系列【包含7B、13B、33B】   | [WhiteRabbitNeo](https://huggingface.co/WhiteRabbitNeo)      |
@@ -44,20 +45,30 @@
 | ChatCVE                                         | 帮助组织分类和聚合 CVE（常见漏洞和暴露）信息。通过利用最先进的自然语言处理，ChatCVE 使每个人都可以访问详细的软件物料清单 (SBOM) 数据 | [ChatCVE](https://github.com/jasona7/ChatCVE)                |
 | SecGPT                                          | SecGPT的目标是结合LLM，对网络安全进行更多贡献，包括渗透测试、红蓝对抗、CTF比赛和其他方面。汇总现有的插件功能，并通过AI进行决策。基于这些决策，它构建基础行为逻辑。然后，根据此逻辑，它调用本地插件功能，尝试完成网站渗透、漏洞扫描、代码审计和报告撰写等任务 | [SecGPT](https://github.com/ZacharyZcR/SecGPT)               |
 | SecGPT-云起无垠                                 | 网络安全大模型。探索各种网络安全任务，漏洞分析、溯源分析、流量分析、攻击研判、命令解释、网安知识问答、高质量网络安全训练集、DPO强化学习 | [secgpt](https://github.com/Clouditera/secgpt)               |
+| AutoMSS                                         | AutoMSS 是基于AI Agent实现的针对安全事件自动化分析研判的系统，依托于 [langchain](https://github.com/langchain-ai/langchain) 框架。首先，从开始部分输入安全事件记录， 由经过微调后的Chatglm2-6B的微调模型对该事件进行分类。然后，根据分类后的结果，使用对应的prompt模板对ChatGLM-pro大模型进行请求，大模型根据向量库中的知识以及自身的逻辑推理能力，生成该类事件的分析研判流程。接着，Agent 根据事件的分析研判流程通过调用工具、访问大模型、请求网络等方式来对该事件进行研判。最后，根据分析的结果输出研判结论以及形成对应的研判报告。 | [AutoMSS](https://github.com/1700111005/autoMSS)             |
 | HackMentor                                      | 网络安全领域微调开源大语言模型，得到行业大模型HackMentor，研究工作主要分为三个部分：网络安全行业微调数据的构建、大语言模型的微调和对LLMs网络安全能力的评估。 | [HackMentor](https://github.com/tmylla/HackMentor)<br />[中科院信工所: HackMentor-面向网络安全领域的大语言模型微调](https://mp.weixin.qq.com/s/EnGdEm0p6cXrdk42yrB90w) |
 | HackerGPT                                       | 用于网络应用程序黑客攻击的值得信赖的道德黑客LLM，针对网络和网络黑客攻击，使用的开源黑客工具进行黑客攻击。 | [HackerGPT](https://github.com/Hacker-GPT/HackerGPT-2.0)     |
 | AutoAudit                                       | AutoAudit作为专门针对网络安全领域的大语言模型，其目标是为安全审计和网络防御提供强大的自然语言处理能力。它具备分析恶意代码、检测网络攻击、预测安全漏洞等功能，为安全专业人员提供有力的支持。 | [AutoAudit](https://github.com/ddzipp/AutoAudit)             |
 | Agentic LLM                                     | 开源 Agentic LLM 漏洞扫描程序                                | [Agentic LLM](https://github.com/msoedov/agentic_security)   |
 | Garak                                           | LLM 漏洞扫描器                                               | [Garak](https://github.com/leondz/garak)                     |
-| ART                                             | 用于机器学习安全的 Python 库。ART 提供的工具使开发人员和研究人员能够评估、防御、认证和验证机器学习模型和应用程序，以抵御规避、中毒、提取和推理等对抗性威胁。 | [Adversarial Robustness Toolbox : document](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)<br />[Adversarial Robustness Toolbox (ART) v1.17](https://github.com/Trusted-AI/adversarial-robustness-toolbox) |
 | SourceGPT                                       | 构建在 ChatGPT 之上的源代码分析器和提示管理器（可做代码扫描） | [SourceGPT](https://github.com/NightmareLab/SourceGPT)       |
 | ChatGPTScan                                     | 由 ChatGPT 提供支持的代码扫描                                | [ChatGPTScan](https://github.com/YulinSec/ChatGPTScanner)    |
 | ChatGPT Code Analyzer                           | 利用ChatGPT 进行的代码分析器                                 | [chatgpt-code-analyzer](https://github.com/MilindPurswani/chatgpt-code-analyzer) |
 | GPTLens                                         | 基于LLM的智能合约漏洞检测                                    | [GPTLens](https://github.com/AvijeetRanawat/GPTLens)         |
 | Audit GPT                                       | 微调 GPT 以进行智能合约审计                                  | [Audit GPT](https://github.com/fuzzland/audit_gpt)           |
 | VulChatGPT                                      | 使用 IDA PRO HexRays 反编译器和 OpenAI(ChatGPT) 来查找二进制文件中可能存在的漏洞 | [VulChatGPT](https://github.com/ke0z/vulchatgpt)             |
+| Callisto                                        | 智能自动化二进制漏洞分析工具。其目的是自动反编译提供的二进制文件并迭代伪代码输出，查找该伪 C 代码中潜在的安全漏洞。 Ghidra 的无头反编译器驱动二进制反编译和分析部分。伪代码分析最初由 Semgrep SAST 工具执行，然后传输到 GPT-3.5-Turbo 以验证 Semgrep 的发现以及潜在的其他漏洞识别 | [Callisto](https://github.com/JetP1ane/Callisto)             |
 | Ret2GPT                                         | 利用 OpenAI API 的能力，RET2GPT 可以为二进制文件提供全面而详细的分析，使其成为 CTF Pwners 不可或缺的工具。 | [Ret2GPT](https://github.com/DDizzzy79/Ret2GPT)              |
+| BurpGPT                                         | burpgpt利用  AI 的强大功能来检测传统扫描程序可能遗漏的安全漏洞。它将网络流量发送到用户指定的 OpenAI model ，从而在被动扫描器中实现复杂的分析。自动生成有效的有效负载、检测潜在的安全漏洞、自动化报告生成、模糊测试支持 | [BurpGPT](https://github.com/aress31/burpgpt)                |
+| nmap-GPT                                        | 使用 Nmap 扫描设备，然后利用 OpenAI API 深入了解应为每个开放端口制定的特定安全注意事项。 | [nmap-GPT](https://github.com/ethanolivertroy/nmap-GPT)      |
+| GPTreport                                       | 使用openai api自动生成makedown漏洞报告                       | [GPTreport](https://github.com/shiyeshu/GPTreport)           |
+| GPT_Vuln-analyzer                               | 利用openai验证扫描结果、生成漏洞分析的准确结果，使用python-nmap扫描目标ip，将获取到的信息提交openai获取分析结果。该项目还具有一个CLI和一个GUI界面，它能够进行网络漏洞分析、DNS枚举和子域枚举。 | [GPT_Vuln-analyzer](https://github.com/morpheuslord/GPT_Vuln-analyzer) |
 | LLM-CodeSecurityReviewer                        | 使用 Ollama(LLM) 检查代码是否存在潜在的不良行为              | [LLM-CodeSecurityReviewer](https://github.com/t41372/LLM-CodeSecurityReviewer) |
+| Nuclei_GPT                                      | 通过Embedding向量Nuclei的模板文档的项目，运行prompt查询工具可以直接对接GPT-3.5编写Nuclei的Yaml文件，安全人员只需要提交相关的Request和Response以及漏洞的描述，就能生成Nuclei的Poc | [nuclei_gpt](https://github.com/sf197/nuclei_gpt)            |
+| Nuclei AI（浏览器扩展）                         | 简化了漏洞模板的创建，使用户能够从任何网页中提取漏洞信息，快速高效地创建 Nuclei 模板，从而节省宝贵的时间和精力 | [Nuclei AI - Browser Extension](https://github.com/projectdiscovery/nuclei-ai-extension) |
+| falco-gpt                                       | OpenAI 支持的工具，用于为 Falco 审核事件生成补救措施。它是一个简单的 HTTP 服务器，用于侦听 Falco 审核事件并将它们推送到内部 NATS 服务器，其作用类似于队列。然后，该队列由一个 goroutine 进行处理，该 goroutine 通过应用速率限制和重试将审核事件发送到 OpenAI API。然后，生成的修复操作通过线程中的 BOT 发送到 Slack | [falco-gpt](https://github.com/Dentrax/falco-gpt)            |
+| WPeChatGPT                                      | 帮助分析二进制文件的IDA插件，基于ChatGPT                     | [WPeChatGPT](https://github.com/WPeace-HcH/WPeChatGPT)       |
+| LLMFuzzer                                       | 用于大型语言模型的模糊测试框架，通过 LLM API 将其集成到应用程序中。 | [LLMFuzzer](https://github.com/mnns/LLMFuzzer)               |
 | LLM-SOC                                         | 基于大语言模型的安全运营辅助增强工具，**RAG框架**（**目前只有README**） | [LLM-SOC](https://github.com/404notf0und/LLM-SOC)            |
 | RagSecOps                                       | LLMs + **RAG** + CVEs + Security = SecAIOps                  | [RagSecOps](https://github.com/rcarrat-AI/ragsecops)         |
 | FlipLogGPT                                      | 使用向量存储进行日志和安全分析的交互式LLM（**RAG框架**）     | [FlipLogGPT](https://github.com/adarshpalaskar1/FlipLogGPT_LLM) |
@@ -156,7 +167,7 @@
 | Firewall for AI                | Cloudflare                 | AI 防火墙，这是一个新的保护层，可在滥用和攻击到达之前将其识别出来。使用 LLM 的应用程序量身定制。其中将包括一组工具，供部署在应用程序前面，以检测漏洞并为模型所有者提供可见性。 | [AI 防火墙](https://www.cloudflare.com/zh-cn/lp/firewall-for-ai/)<br />[Cloudflare 宣布推出 Firewall for AI](https://blog.cloudflare.com/zh-cn/firewall-for-ai-zh-cn/) |
 | AI-SPM                         | Wiz                        | 人工智能安全态势管理产品，旨在保护在软件开发过程中使用人工智能工具 | [Wiz成为第一个提供AI安全态势管理的CNAPP](https://www.wiz.io/blog/ai-security-posture-management) |
 | GenAI-Powered Security Tools   | Fortinet                   | GenAI 为 Fortinet AI 增加了一个新维度，允许 SecOps 团队直接与 AI 系统交互，以增强威胁检测、分析和响应、生成报告、构建剧本以及修复易受攻击和受损的系统 | [Fortinet Advisor Applies the Power of GenAI to SecOps](https://www.fortinet.com/blog/business-and-technology/fortinet-advisor-applies-power-of-genai-to-secops) |
-|                                |                            |                                                              |                                                              |
+| Burp GPT                       | 安吉斯网络                 | Burp GPT 是一款适合顾问和安全专家的综合工具。旨在提高应用程序安全测试的精度和效率。它通过先进的语言处理功能和直观的界面进行扩展，增强了初学者和经验丰富的测试人员的安全测试 | [BurpGPT](https://burpgpt.app/)                              |
 
 ### 其他资源
 
