@@ -52,7 +52,6 @@
 | SourceGPT                                       | 构建在 ChatGPT 之上的源代码分析器和提示管理器（可做代码扫描） | [SourceGPT](https://github.com/NightmareLab/SourceGPT)       |
 | ChatGPTScan                                     | 由 ChatGPT 提供支持的代码扫描                                | [ChatGPTScan](https://github.com/YulinSec/ChatGPTScanner)    |
 | ChatGPT Code Analyzer                           | 利用ChatGPT 进行的代码分析器                                 | [chatgpt-code-analyzer](https://github.com/MilindPurswani/chatgpt-code-analyzer) |
-| Hacker AI                                       | 检测源代码中的漏洞的在线工具（闭源-公司）                    | [hacker-ai](https://hacker-ai.ai/#hacker-ai)                 |
 | GPTLens                                         | 基于LLM的智能合约漏洞检测                                    | [GPTLens](https://github.com/AvijeetRanawat/GPTLens)         |
 | Audit GPT                                       | 微调 GPT 以进行智能合约审计                                  | [Audit GPT](https://github.com/fuzzland/audit_gpt)           |
 | VulChatGPT                                      | 使用 IDA PRO HexRays 反编译器和 OpenAI(ChatGPT) 来查找二进制文件中可能存在的漏洞 | [VulChatGPT](https://github.com/ke0z/vulchatgpt)             |
@@ -145,10 +144,11 @@
 
 ### 相关产品
 
-| 名称                           | 公司   | 简介                                                         | 链接                                                         |
-| ------------------------------ | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Q-GPT安全机器人系统（QAX-GPT） | 奇安信 | Q-GPT安全机器人系统（QAX-GPT）是面向网络安全领域的革命性产品，专为有大规模安全运营需求的政企客户设计。它充分发挥大语言模型的理解推理能力，通过机器智能模拟人类专家，实现海量告警研判、自动化调查、可执行任务生成。 | [奇安信Q-GPT安全机器人系统（QAX-GPT）](https://www.qianxin.com/product/detail/pid/496) |
-| Microsoft 安全 Copilot         | 微软   | 安全 Copilot 是一种 AI 网络安全产品，使安全专业人员能够快速响应网络威胁、像机器那样快速处理信号，并在数分钟内评估风险暴露。 | [Microsoft 安全 Copilot ](https://www.microsoft.com/zh-cn/security/business/ai-machine-learning/microsoft-copilot-security#Scenarios) |
+| 名称                           | 公司                       | 简介                                                         | 链接                                                         |
+| ------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Q-GPT安全机器人系统（QAX-GPT） | 奇安信                     | Q-GPT安全机器人系统（QAX-GPT）是面向网络安全领域的革命性产品，专为有大规模安全运营需求的政企客户设计。它充分发挥大语言模型的理解推理能力，通过机器智能模拟人类专家，实现海量告警研判、自动化调查、可执行任务生成。 | [奇安信Q-GPT安全机器人系统（QAX-GPT）](https://www.qianxin.com/product/detail/pid/496) |
+| Microsoft 安全 Copilot         | 微软                       | 安全 Copilot 是一种 AI 网络安全产品，使安全专业人员能够快速响应网络威胁、像机器那样快速处理信号，并在数分钟内评估风险暴露。 | [Microsoft 安全 Copilot ](https://www.microsoft.com/zh-cn/security/business/ai-machine-learning/microsoft-copilot-security#Scenarios) |
+| Vulnerability detection by AI  | Offective 360（Hacker AI） | Hacker AI 是一种人工智能解决方案，可扫描源代码以识别可能被黑客或恶意行为者利用的潜在安全漏洞。通过识别这些漏洞，组织可以采取措施解决问题并防止安全漏洞。 | [Hacker AI](https://hacker-ai.ai/#hacker-ai)                 |
 
 
 ## 贡献
