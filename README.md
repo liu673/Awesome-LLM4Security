@@ -1,6 +1,6 @@
 # Awesome-LLM4Security 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)  
-> 一个关于网络安全模型的精选资源列表，包含模型/项目、论文、数据以及相关产品。
+> 以下是关于使用NLP、KG、 GPT 进行网络安全模型研究的精选资源列表，包含模型/项目、论文、数据以及相关产品。
 
 ## 目录
 - [简介](#简介)
@@ -9,6 +9,7 @@
   - [论文](#论文)
   - [数据集](#数据集)
   - [相关产品](#相关产品)
+  - [其他](#其他资源)
 - [贡献](#贡献)
 - [附录](#附录)
   - [许可证](#许可证)
@@ -35,20 +36,20 @@
 | WhiteRabbitNeo                                  | 一个可用于进攻和防御网络安全的模型系列【包含7B、13B、33B】   | [WhiteRabbitNeo](https://huggingface.co/WhiteRabbitNeo)      |
 | Whiterabbitneo-Pentestgpt                       | 将专门针对网络安全的开源模型whiterabbitneo和GPT 4的提示技术PentestGPT结合起来，让GPT 4进入hack the box用户的前1%，打造一个完全开放的渗透测试的源解决方案。 | [Whiterabbitneo-Pentestgpt](https://github.com/isamu-isozaki/whiterabbitneo-pentestgpt) |
 | LATTE                                           | 结合LLM和程序分析的二进制污点分析引擎。结合LLMs来实现自动化的二进制污点分析。这克服了传统污点分析需要手动定制污点传播规则和漏洞检查规则的局限性 | [LATTE](https://github.com/puzhuoliu/LATTE)                  |
-|                                                 |                                                              |                                                              |
 | AVScan2Vec                                      | 一种序列到序列自动编码器，可以将恶意文件的防病毒结果嵌入到向量中。然后，这些向量可用于下游 ML 任务，例如分类、聚类和最近邻查找。【将防病毒扫描报告转换为向量表示，有效处理大规模恶意软件数据集，并在恶意软件分类、聚类和最近邻搜索等任务中表现良好】 | [AVScan2Vec](https://github.com/boozallen/AVScan2Vec)        |
 | PassGPT                                         | 一个针对密码泄露从头开始训练的 GPT-2 模型。利用 LLMs 的密码生成模型，引入了引导式密码生成，其中 PassGPT 的采样过程生成符合用户定义约束的密码。这种方法通过生成更多以前未见过的密码，优于利用生成对抗网络（GAN）的现有方法，从而证明了LLMs在改进现有密码强度估计器方面的有效性 | [PassGPT](https://github.com/javirandor/passgpt)             |
 | pwned-by-passgpt                                | 使用 Have I Been Pwned (HIBP) 数据集进行密码破解研究，以评估 PassGPT 大型语言模型 (LLM) 的有效性。 | [pwned-by-passgpt](https://github.com/sean-t-smith/pwned-by-passgpt) |
-|                                                 |                                                              |                                                              |
 | LLM Security 101                                | 深入LLM安全领域：进攻和防御工具的探索，揭示它们目前的能力。  | [LLM Security 101](https://github.com/Seezo-io/llm-security-101) |
 | SecurityGPT                                     | 使用大型语言模型 (LLMs) 增强软件源代码中的安全错误报告 (SBR) 的分类。我们开发并微调了 LLMs 来解决识别代码中安全漏洞的关键任务。 | [SecurityGPT](https://github.com/Alexyskoutnev/SecurityGPT)  |
 | ChatCVE                                         | 帮助组织分类和聚合 CVE（常见漏洞和暴露）信息。通过利用最先进的自然语言处理，ChatCVE 使每个人都可以访问详细的软件物料清单 (SBOM) 数据 | [ChatCVE](https://github.com/jasona7/ChatCVE)                |
 | SecGPT                                          | SecGPT的目标是结合LLM，对网络安全进行更多贡献，包括渗透测试、红蓝对抗、CTF比赛和其他方面。汇总现有的插件功能，并通过AI进行决策。基于这些决策，它构建基础行为逻辑。然后，根据此逻辑，它调用本地插件功能，尝试完成网站渗透、漏洞扫描、代码审计和报告撰写等任务 | [SecGPT](https://github.com/ZacharyZcR/SecGPT)               |
 | SecGPT-云起无垠                                 | 网络安全大模型。探索各种网络安全任务，漏洞分析、溯源分析、流量分析、攻击研判、命令解释、网安知识问答、高质量网络安全训练集、DPO强化学习 | [secgpt](https://github.com/Clouditera/secgpt)               |
+| HackMentor                                      | 网络安全领域微调开源大语言模型，得到行业大模型HackMentor，研究工作主要分为三个部分：网络安全行业微调数据的构建、大语言模型的微调和对LLMs网络安全能力的评估。 | [HackMentor](https://github.com/tmylla/HackMentor)<br />[中科院信工所: HackMentor-面向网络安全领域的大语言模型微调](https://mp.weixin.qq.com/s/EnGdEm0p6cXrdk42yrB90w) |
 | HackerGPT                                       | 用于网络应用程序黑客攻击的值得信赖的道德黑客LLM，针对网络和网络黑客攻击，使用的开源黑客工具进行黑客攻击。 | [HackerGPT](https://github.com/Hacker-GPT/HackerGPT-2.0)     |
 | AutoAudit                                       | AutoAudit作为专门针对网络安全领域的大语言模型，其目标是为安全审计和网络防御提供强大的自然语言处理能力。它具备分析恶意代码、检测网络攻击、预测安全漏洞等功能，为安全专业人员提供有力的支持。 | [AutoAudit](https://github.com/ddzipp/AutoAudit)             |
 | Agentic LLM                                     | 开源 Agentic LLM 漏洞扫描程序                                | [Agentic LLM](https://github.com/msoedov/agentic_security)   |
 | Garak                                           | LLM 漏洞扫描器                                               | [Garak](https://github.com/leondz/garak)                     |
+| ART                                             | 用于机器学习安全的 Python 库。ART 提供的工具使开发人员和研究人员能够评估、防御、认证和验证机器学习模型和应用程序，以抵御规避、中毒、提取和推理等对抗性威胁。 | [Adversarial Robustness Toolbox : document](https://adversarial-robustness-toolbox.readthedocs.io/en/latest/)<br />[Adversarial Robustness Toolbox (ART) v1.17](https://github.com/Trusted-AI/adversarial-robustness-toolbox) |
 | SourceGPT                                       | 构建在 ChatGPT 之上的源代码分析器和提示管理器（可做代码扫描） | [SourceGPT](https://github.com/NightmareLab/SourceGPT)       |
 | ChatGPTScan                                     | 由 ChatGPT 提供支持的代码扫描                                | [ChatGPTScan](https://github.com/YulinSec/ChatGPTScanner)    |
 | ChatGPT Code Analyzer                           | 利用ChatGPT 进行的代码分析器                                 | [chatgpt-code-analyzer](https://github.com/MilindPurswani/chatgpt-code-analyzer) |
@@ -91,6 +92,8 @@
 | 名称                                                         | 时间                                    | 简介                                                         | 链接                                                         |
 | ------------------------------------------------------------ | --------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ZeroLeak                                                     | 2023.8.24                               | LLMs来修复程序中的旁路漏洞                                   | [ZeroLeak: Using LLMs for Scalable and Cost Effective Side-Channel Patching](https://arxiv.org/abs/2308.13062) |
+| Large Language Models in Cybersecurity: State-of-the-Art     | 2024.1.30                               | 对网络安全领域内的防御性和对抗性应用提供了全面的描述。       | https://arxiv.org/abs/2402.00891                             |
+| CySecBERT: A Domain-Adapted Language Model for the Cybersecurity Domain | 2022.12.6                               | 一种基于 BERT的词嵌入模型，用于分析网络安全文本，专门针对网络安全领域定制的语言模型，它可以作为处理自然语言的网络安全系统的基本构建块。 | https://arxiv.org/abs/2212.02974                             |
 | A survey on cybersecurity knowledge graph construction       | 2023.10.1                               | 网络安全知识图谱构建综述                                     | [网络安全知识图谱构建综述 - ScienceDirect --- A survey on cybersecurity knowledge graph construction - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0167404823004340?via%3Dihub) |
 | AttacKG: Constructing Technique Knowledge Graph from Cyber Threat Intelligence Reports | v1:2021.11.13<br />v2:2022.5.29         | AttacKG自动从CTI报告中提取结构化攻击行为图，并识别所采用的攻击技术。然后，我们汇总跨报告的网络威胁情报，以收集技术的不同方面，并将攻击行为图增强为技术知识图谱 （TKG） | https://arxiv.org/abs/2111.07093                             |
 | EXTRACTOR: Extracting Attack Behavior from Threat Reports    | 2021.4.17                               | EXTRACTOR从CTI报告中精确地自动提取简明的攻击行为。EXTRACTOR 对文本不做任何强有力的假设，并且能够从非结构化文本中提取攻击行为作为来源图。 | https://arxiv.org/abs/2104.08618                             |
@@ -140,6 +143,7 @@
 | CDTier                  | 数据集主要分为两部分：实体抽取和关系抽取                     | https://github.com/MuYu-z/CDTier                             |
 | APTNER                  | 为网络威胁情报 (CTI) 领域的 NER 任务提供新的数据集。我们定义了 21 种实体类型。 | https://github.com/wangxuren/APTNER                          |
 | DNRTI                   | DNRTI-A-大规模数据集，用于威胁情报中的命名实体识别           | https://github.com/SCreaMxp/DNRTI-A-Large-scale-Dataset-for-Named-Entity-Recognition-in-Threat-Intelligence |
+| AI Exploits             | 现实世界漏洞的漏洞利用和扫描模板的集合                       | https://github.com/protectai/ai-exploits                     |
 
 
 ### 相关产品
@@ -149,9 +153,25 @@
 | Q-GPT安全机器人系统（QAX-GPT） | 奇安信                     | Q-GPT安全机器人系统（QAX-GPT）是面向网络安全领域的革命性产品，专为有大规模安全运营需求的政企客户设计。它充分发挥大语言模型的理解推理能力，通过机器智能模拟人类专家，实现海量告警研判、自动化调查、可执行任务生成。 | [奇安信Q-GPT安全机器人系统（QAX-GPT）](https://www.qianxin.com/product/detail/pid/496) |
 | Microsoft 安全 Copilot         | 微软                       | 安全 Copilot 是一种 AI 网络安全产品，使安全专业人员能够快速响应网络威胁、像机器那样快速处理信号，并在数分钟内评估风险暴露。 | [Microsoft 安全 Copilot ](https://www.microsoft.com/zh-cn/security/business/ai-machine-learning/microsoft-copilot-security#Scenarios) |
 | Vulnerability detection by AI  | Offective 360（Hacker AI） | Hacker AI 是一种人工智能解决方案，可扫描源代码以识别可能被黑客或恶意行为者利用的潜在安全漏洞。通过识别这些漏洞，组织可以采取措施解决问题并防止安全漏洞。 | [Hacker AI](https://hacker-ai.ai/#hacker-ai)                 |
+| Firewall for AI                | Cloudflare                 | AI 防火墙，这是一个新的保护层，可在滥用和攻击到达之前将其识别出来。使用 LLM 的应用程序量身定制。其中将包括一组工具，供部署在应用程序前面，以检测漏洞并为模型所有者提供可见性。 | [AI 防火墙](https://www.cloudflare.com/zh-cn/lp/firewall-for-ai/)<br />[Cloudflare 宣布推出 Firewall for AI](https://blog.cloudflare.com/zh-cn/firewall-for-ai-zh-cn/) |
+| AI-SPM                         | Wiz                        | 人工智能安全态势管理产品，旨在保护在软件开发过程中使用人工智能工具 | [Wiz成为第一个提供AI安全态势管理的CNAPP](https://www.wiz.io/blog/ai-security-posture-management) |
+| GenAI-Powered Security Tools   | Fortinet                   | GenAI 为 Fortinet AI 增加了一个新维度，允许 SecOps 团队直接与 AI 系统交互，以增强威胁检测、分析和响应、生成报告、构建剧本以及修复易受攻击和受损的系统 | [Fortinet Advisor Applies the Power of GenAI to SecOps](https://www.fortinet.com/blog/business-and-technology/fortinet-advisor-applies-power-of-genai-to-secops) |
+|                                |                            |                                                              |                                                              |
 
+### 其他资源
+
+- Github地址：[GPTSecurity](https://github.com/mo-xiaoxi/GPTSecurity)  |  GitBook地址：[GPTSecurity](https://www.gptsecurity.info/) 
+
+  GPTSecurity是一个涵盖了前沿学术研究和实践经验分享的社区，集成了生成预训练 Transformer（GPT）、人工智能生成内容（AIGC）以及大型语言模型（LLM）等安全领域应用的知识。
+
+- [安全人工智能系统开发指南](https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development/introduction)
+
+  适用于任何使用人工智能 (AI) 的系统提供商的指南，无论这些系统是从头开始创建的，还是构建在其他人提供的工具和服务之上的。
+
+- [下一代网络安全应用程序：如何开发和部署 AI/ML、搜索和分析应用程序以转变企业网络安全](https://www.snowflake.com/next-generation-cybersecurity-applications/?utm_source=google&utm_medium=paidsearch&utm_campaign=na-us-en-nb-cybersecurity-phrase&utm_content=go-rsa-evg-eb-next-generation-cybersecurity-applications&utm_term=c-g-cyber%20security-p-684401030637&gad_source=1&gclid=CjwKCAjw9IayBhBJEiwAVuc3fqPNPtWoWA8ZagWFXFCV21LxC4l4S9xBoBT6CHLcNIuT1Wd_0sVqihoCvlkQAvD_BwE)
 
 ## 贡献
+
 欢迎为这个列表做出贡献！你可以通过提交一个pull request来添加、修改或删除资源。在提交之前，请确保你遵循了以下准则：
 - 确保资源的质量上乘，并且与网络安全模型的主题相关。
 - 在添加资源时，请按照相应的分类进行排序，并保持列表的整洁。
@@ -164,5 +184,4 @@
 
 ### 点赞历史
 [![Star History Chart](https://api.star-history.com/svg?repos=liu673/Awesome-LLM4Security&type=Date)](https://star-history.com/#liu673/Awesome-LLM4Security&Date)
-
 
