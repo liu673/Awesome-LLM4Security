@@ -171,6 +171,8 @@
 
 ### 其他资源
 
+- [Awesome GPTs (Agents) for Cybersecurity 攻防两方面的GPT Agent](https://github.com/fr0gger/Awesome-GPT-Agents)
+
 - Github地址：[GPTSecurity](https://github.com/mo-xiaoxi/GPTSecurity)  |  GitBook地址：[GPTSecurity](https://www.gptsecurity.info/) 
 
   GPTSecurity是一个涵盖了前沿学术研究和实践经验分享的社区，集成了生成预训练 Transformer（GPT）、人工智能生成内容（AIGC）以及大型语言模型（LLM）等安全领域应用的知识。
