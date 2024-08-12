@@ -25,8 +25,10 @@
 
 | 名称                                                         | 简介                                                         | 链接                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Agentic Security                                             | 开源 AgenticLLM漏洞扫描器（安全扫描工具）。可定制的规则集或基于代理的攻击，全面的模糊测试适用于任何LLMs。 | [Agentic Security](https://github.com/msoedov/agentic_security) |
 | SecureBERT: CyberSecurity Language Model                     | 专门为网络安全任务量身定制的专用语言模型。该存储库记录了 SecureBERT 在使用操作码序列对恶意软件样本进行分类方面的研究、开发和实施。 | [SecureBert_Malware-Classification](https://github.com/kaushik-42/SecureBert_Malware-Classification) |
 | SecureBERT-NER                                               | 该模型用于从安全咨询文本中提取命名实体。专门针对网络安全文本进行训练的命名实体识别 (NER) 模型。它可以识别身份、安全团队、工具、时间、攻击等各种实体。 | [cybersecurity-ner](https://github.com/PriyankaMohan94/cybersecurity-ner) |
+| Luwak TTP Extractor                                          | 使用预训练模型从非结构化威胁报告中提取战术、技术和攻击过程 (TTP)。 它使用 [ERNIE](https://github.com/PaddlePaddle/ERNIE) 预训练模型从威胁报告中推断出常见的 TTP。 | [Luwak TTP Extractor](https://github.com/Qihoo360/Luwak/tree/master) |
 | ceg-afpm                                                     | 用于使用LLM句子分类进行安全漏洞误报识别                      | [ceg-afpm](https://github.com/arigig/ceg-afpm)               |
 | CVE2TTP                                                      | 一种从网络安全文本资源中评估、注释和提取威胁信息的自动化方法，以在 SecureBERT 之上开发模型，将 CVE 分类为 TTP。 | [CVE2TTP](https://github.com/ehsanaghaei/CVE2TTP)            |
 | SecureBERT                                                   | 一种用于表示网络安全文本数据的特定领域语言模型。             | [SecureBERT](https://github.com/ehsanaghaei/SecureBERT)<br />[SecureBERT-plus](https://github.com/ehsanaghaei/SecureBERT-plus)<br />[SecureDeBERTa](https://github.com/ehsanaghaei/SecureDeBERTa)<br />[SecureGPT](https://github.com/ehsanaghaei/SecureGPT) |
@@ -170,17 +172,21 @@
 
 ### 相关产品
 
-| 名称                           | 公司                       | 简介                                                         | 链接                                                         |
-| ------------------------------ | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Q-GPT安全机器人系统（QAX-GPT） | 奇安信                     | Q-GPT安全机器人系统（QAX-GPT）是面向网络安全领域的革命性产品，专为有大规模安全运营需求的政企客户设计。它充分发挥大语言模型的理解推理能力，通过机器智能模拟人类专家，实现海量告警研判、自动化调查、可执行任务生成。 | [奇安信Q-GPT安全机器人系统（QAX-GPT）](https://www.qianxin.com/product/detail/pid/496) |
-| Microsoft 安全 Copilot         | 微软                       | 安全 Copilot 是一种 AI 网络安全产品，使安全专业人员能够快速响应网络威胁、像机器那样快速处理信号，并在数分钟内评估风险暴露。 | [Microsoft 安全 Copilot ](https://www.microsoft.com/zh-cn/security/business/ai-machine-learning/microsoft-copilot-security#Scenarios) |
-| Vulnerability detection by AI  | Offective 360（Hacker AI） | Hacker AI 是一种人工智能解决方案，可扫描源代码以识别可能被黑客或恶意行为者利用的潜在安全漏洞。通过识别这些漏洞，组织可以采取措施解决问题并防止安全漏洞。 | [Hacker AI](https://hacker-ai.ai/#hacker-ai)                 |
-| Firewall for AI                | Cloudflare                 | AI 防火墙，这是一个新的保护层，可在滥用和攻击到达之前将其识别出来。使用 LLM 的应用程序量身定制。其中将包括一组工具，供部署在应用程序前面，以检测漏洞并为模型所有者提供可见性。 | [AI 防火墙](https://www.cloudflare.com/zh-cn/lp/firewall-for-ai/)<br />[Cloudflare 宣布推出 Firewall for AI](https://blog.cloudflare.com/zh-cn/firewall-for-ai-zh-cn/) |
-| AI-SPM                         | Wiz                        | 人工智能安全态势管理产品，旨在保护在软件开发过程中使用人工智能工具 | [Wiz成为第一个提供AI安全态势管理的CNAPP](https://www.wiz.io/blog/ai-security-posture-management) |
-| GenAI-Powered Security Tools   | Fortinet                   | GenAI 为 Fortinet AI 增加了一个新维度，允许 SecOps 团队直接与 AI 系统交互，以增强威胁检测、分析和响应、生成报告、构建剧本以及修复易受攻击和受损的系统 | [Fortinet Advisor Applies the Power of GenAI to SecOps](https://www.fortinet.com/blog/business-and-technology/fortinet-advisor-applies-power-of-genai-to-secops) |
-| Burp GPT                       | 安吉斯网络                 | Burp GPT 是一款适合顾问和安全专家的综合工具。旨在提高应用程序安全测试的精度和效率。它通过先进的语言处理功能和直观的界面进行扩展，增强了初学者和经验丰富的测试人员的安全测试 | [BurpGPT](https://burpgpt.app/)                              |
+| 名称                                      | 公司                       | 简介                                                         | 链接                                                         |
+| ----------------------------------------- | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Q-GPT安全机器人系统（QAX-GPT）            | 奇安信                     | Q-GPT安全机器人系统（QAX-GPT）是面向网络安全领域的革命性产品，专为有大规模安全运营需求的政企客户设计。它充分发挥大语言模型的理解推理能力，通过机器智能模拟人类专家，实现海量告警研判、自动化调查、可执行任务生成。 | [奇安信Q-GPT安全机器人系统（QAX-GPT）](https://www.qianxin.com/product/detail/pid/496) |
+| Microsoft 安全 Copilot                    | 微软                       | 安全 Copilot 是一种 AI 网络安全产品，使安全专业人员能够快速响应网络威胁、像机器那样快速处理信号，并在数分钟内评估风险暴露。 | [Microsoft 安全 Copilot ](https://www.microsoft.com/zh-cn/security/business/ai-machine-learning/microsoft-copilot-security#Scenarios) |
+| Vulnerability detection by AI             | Offective 360（Hacker AI） | Hacker AI 是一种人工智能解决方案，可扫描源代码以识别可能被黑客或恶意行为者利用的潜在安全漏洞。通过识别这些漏洞，组织可以采取措施解决问题并防止安全漏洞。 | [Hacker AI](https://hacker-ai.ai/#hacker-ai)                 |
+| Firewall for AI                           | Cloudflare                 | AI 防火墙，这是一个新的保护层，可在滥用和攻击到达之前将其识别出来。使用 LLM 的应用程序量身定制。其中将包括一组工具，供部署在应用程序前面，以检测漏洞并为模型所有者提供可见性。 | [AI 防火墙](https://www.cloudflare.com/zh-cn/lp/firewall-for-ai/)<br />[Cloudflare 宣布推出 Firewall for AI](https://blog.cloudflare.com/zh-cn/firewall-for-ai-zh-cn/) |
+| AI-SPM                                    | Wiz                        | 人工智能安全态势管理产品，旨在保护在软件开发过程中使用人工智能工具 | [Wiz成为第一个提供AI安全态势管理的CNAPP](https://www.wiz.io/blog/ai-security-posture-management) |
+| GenAI-Powered Security Tools              | Fortinet                   | GenAI 为 Fortinet AI 增加了一个新维度，允许 SecOps 团队直接与 AI 系统交互，以增强威胁检测、分析和响应、生成报告、构建剧本以及修复易受攻击和受损的系统 | [Fortinet Advisor Applies the Power of GenAI to SecOps](https://www.fortinet.com/blog/business-and-technology/fortinet-advisor-applies-power-of-genai-to-secops) |
+| Burp GPT                                  | 安吉斯网络                 | Burp GPT 是一款适合顾问和安全专家的综合工具。旨在提高应用程序安全测试的精度和效率。它通过先进的语言处理功能和直观的界面进行扩展，增强了初学者和经验丰富的测试人员的安全测试 | [BurpGPT](https://burpgpt.app/)                              |
+| NgSecGPT 开源网络安全大模型（目前没开源） | 华云信安                   | NgSecGPT大模型基于13亿参数的LLaMA系开源大模型，利用大规模网络安全相关数据集，进行全量微调 | [NgSecGPT 介绍](https://www.huayunsec.com/gpt.html)          |
+| 360 安全大模型（，目前没开源）            | 360                        | 360安全大模型是360基于20年积累的安全大数据以及多年来对抗APT组织的攻防实战经验研发而来的全新安全“中枢框架”。<br/>通过对安全领域进行深度训练，360构建了包含攻击检测大模型、运营处置大模型、知识管理大模型、追踪溯源大模型、代码安全大模型、数据保护大模型在内的安全大模型矩阵。 | [360 安全大模型 介绍](https://360.net/product-center/security-intelligence-brain/360secllm) |
 
 ### 其他资源
+
+- [2024 安全大模型技术与市场研究报告](https://www.csreviews.cn/wp-content/uploads/2024/06/SSAQ2024AIsecurity.pdf)
 
 - [Awesome GPTs (Agents) for Cybersecurity 攻防两方面的GPT Agent](https://github.com/fr0gger/Awesome-GPT-Agents)
 
