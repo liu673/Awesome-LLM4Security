@@ -110,6 +110,8 @@
 
 | 名称                                                         | 时间                                    | 简介                                                         | 链接                                                         |
 | ------------------------------------------------------------ | --------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| RepresentThemAll: A Universal Learning Representation of Bug Reports |                                         | epresentThemAll 是一个通用的错误报告框架，它经过了两个精心设计的学习目标的预训练：一个是动态屏蔽语言模型，另一个是对比学习目标“发现自己”。Bug detection（漏洞检测） | [RepresentThemAll：错误报告的通用学习表示 ](https://ieeexplore.ieee.org/document/10172597) |
+| PassGPT                                                      |                                         | PassGPT，一个针对密码泄漏进行训练的用于密码生成的 LLM。Access control（访问控制） | [PassGPT: Password Modeling and (Guided) Generation with Large Language Models ](https://arxiv.org/abs/2306.01545) |
 | ZeroLeak                                                     | 2023.8.24                               | LLMs来修复程序中的旁路漏洞                                   | [ZeroLeak: Using LLMs for Scalable and Cost Effective Side-Channel Patching](https://arxiv.org/abs/2308.13062) |
 | Large Language Models in Cybersecurity: State-of-the-Art     | 2024.1.30                               | 对网络安全领域内的防御性和对抗性应用提供了全面的描述。       | https://arxiv.org/abs/2402.00891                             |
 | CySecBERT: A Domain-Adapted Language Model for the Cybersecurity Domain | 2022.12.6                               | 一种基于 BERT的词嵌入模型，用于分析网络安全文本，专门针对网络安全领域定制的语言模型，它可以作为处理自然语言的网络安全系统的基本构建块。 | https://arxiv.org/abs/2212.02974                             |
@@ -201,6 +203,25 @@
 - [下一代网络安全应用程序：如何开发和部署 AI/ML、搜索和分析应用程序以转变企业网络安全](https://www.snowflake.com/next-generation-cybersecurity-applications/?utm_source=google&utm_medium=paidsearch&utm_campaign=na-us-en-nb-cybersecurity-phrase&utm_content=go-rsa-evg-eb-next-generation-cybersecurity-applications&utm_term=c-g-cyber%20security-p-684401030637&gad_source=1&gclid=CjwKCAjw9IayBhBJEiwAVuc3fqPNPtWoWA8ZagWFXFCV21LxC4l4S9xBoBT6CHLcNIuT1Wd_0sVqihoCvlkQAvD_BwE)
 
 - [When LLMs Meet Cybersecurity: A Systematic Literature Review](https://github.com/tmylla/Awesome-LLM4Cybersecurity)
+
+### 参考资源
+
+| 名称                                     | 简介                                                         | 链接                                                         |
+| ---------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ✨Awesome GPT + Security（**强推**）      | 使用 LLM 或 GPT 的精彩安全工具、实验案例或其他有趣事物的精选列表 | https://github.com/cckuailong/awesome-gpt-security           |
+| ✨Awesome GPTs (Agents) for Cybersecurity | “Awesome GPT（代理）存储库”代表了社区创建的专注于网络安全（进攻性和防御性）的 GPT 代理综合列表的初步努力。 | https://github.com/fr0gger/Awesome-GPT-Agents                |
+| ✨Awesome-LLM                             | Awesome-LLM：大型语言模型的精选列表                          | https://github.com/Hannibal046/Awesome-LLM                   |
+| Awesome-LLMSec（强推）                   | Awesome-LLMSec 即所有事物的顶级门户 LLM 安全和红队生成人工智能 | https://github.com/xsankar/LLMSec-DefenderDossier            |
+| Awesome Security Vulnerability Project   | 安全行业从业者收集漏洞信息、POC信息、规则等汇总（**信息汇总**） | [Awesome Security Vulnerability Project](https://github.com/xu-xiang/awesome-security-vul-llm) |
+| LLM Hacker's Handbook                    | LLM 黑客攻击指南：基础知识、即时注入、进攻和防御             | [LLM Hacker's Handbook](https://github.com/forcesunseen/llm-hackers-handbook) |
+| Awesome_GPT_Super_Prompting              | ChatGPT 越狱、GPT 助手提示泄漏、GPT 提示注入、LLM 提示安全、超级提示、提示黑客、提示安全、Ai 提示工程、对抗性机器学习 | [Awesome_GPT_Super_Prompting](https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting) |
+| OWASP Top 10                             | OWASP Top 10                                                 | https://llmtop10.com/<br />[OWASP Top 10 for Large Language Model Applications](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications) |
+| LLM Security                             | 语言模型安全（LLM）的相关学习资料、知识输出以及解读。        | [LLM Security](https://github.com/y4ney/LLM-Security)        |
+| Awesome-LLM-Security-Papers              | LLM在各场景下的论文                                          | [Awesome-LLM-Security-Papers](https://github.com/kydahe/Awesome-LLM-Security-Papers) |
+| AI/ML/LLM-security-resources             | AI/ML/LLM 安全资源列表                                       | [AI/ML/LLM-security-resources](https://github.com/N372unn32/AI-ML-LLM-security-resources) |
+| 404星链计划                              | 推荐优质、有意义、有趣、坚持维护的安全开源项目               | [404 StarLink Project](https://github.com/knownsec/404StarLink) |
+
+
 
 ## 贡献
 
