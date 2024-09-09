@@ -25,6 +25,7 @@
 
 | 名称                                                         | 简介                                                         | 链接                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Awesome_GPT_Super_PromptingChatGPT                           | 越狱提示词、GPT 智能体提示词、提示词注入及保护。ChatGPT越狱、GPT助理提示泄漏、LLM提示安全性、超级Prompt、黑客Prompt、安全Prompt | [Awesome_GPT_Super_Prompting](https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting) |
 | Agentic Security                                             | 开源 AgenticLLM漏洞扫描器（安全扫描工具）。可定制的规则集或基于代理的攻击，全面的模糊测试适用于任何LLMs。 | [Agentic Security](https://github.com/msoedov/agentic_security) |
 | SecureBERT: CyberSecurity Language Model                     | 专门为网络安全任务量身定制的专用语言模型。该存储库记录了 SecureBERT 在使用操作码序列对恶意软件样本进行分类方面的研究、开发和实施。 | [SecureBert_Malware-Classification](https://github.com/kaushik-42/SecureBert_Malware-Classification) |
 | SecureBERT-NER                                               | 该模型用于从安全咨询文本中提取命名实体。专门针对网络安全文本进行训练的命名实体识别 (NER) 模型。它可以识别身份、安全团队、工具、时间、攻击等各种实体。 | [cybersecurity-ner](https://github.com/PriyankaMohan94/cybersecurity-ner) |
