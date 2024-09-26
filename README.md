@@ -186,6 +186,7 @@
 | Burp GPT                                 | 安吉斯网络                 | Burp GPT 是一款适合顾问和安全专家的综合工具。旨在提高应用程序安全测试的精度和效率。它通过先进的语言处理功能和直观的界面进行扩展，增强了初学者和经验丰富的测试人员的安全测试 | [BurpGPT](https://burpgpt.app/)                              |
 | NgSecGPT 开源网络安全大模型（目前没开源） | 华云信安                   | NgSecGPT大模型基于13亿参数的LLaMA系开源大模型，利用大规模网络安全相关数据集，进行全量微调 | [NgSecGPT 介绍](https://www.huayunsec.com/gpt.html)          |
 | 360 安全大模型（目前没开源）            | 360                        | 360安全大模型是360基于20年积累的安全大数据以及多年来对抗APT组织的攻防实战经验研发而来的全新安全“中枢框架”。<br/>通过对安全领域进行深度训练，360构建了包含攻击检测大模型、运营处置大模型、知识管理大模型、追踪溯源大模型、代码安全大模型、数据保护大模型在内的安全大模型矩阵。 | [360 安全大模型 介绍](https://360.net/product-center/security-intelligence-brain/360secllm) |
+| StarShip SecScan | OpenCSG（开放传神） | StarShip SecScan基于大模型的软件安全防护方案。利用 AI 大模型的能力，深入分析软件代码，准确识别潜在的安全威胁和漏洞，颠覆传统漏洞扫描模式。功能包含：源代码安全漏洞审查，第三方依赖包安全审查，IDE侧的安全漏洞扫描，正式的安全报告 | [OpenCSG推出StarShip SecScan：AI驱动的软件安全革新](https://blog.opencsg.com/blog/news/52/) |
 
 ### 其他资源
 
