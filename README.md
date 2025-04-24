@@ -1,4 +1,5 @@
-# Awesome-LLM4Security 
+# Awesome-LLM4Security
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)  
 > 以下是关于使用NLP、KG、 GPT 进行网络安全模型研究的精选资源列表，包含模型/项目、论文、数据以及相关产品。
 
@@ -111,6 +112,8 @@
 
 | 名称                                                         | 时间                                    | 简介                                                         | 链接                                                         |
 | ------------------------------------------------------------ | --------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Large Language Model (LLM) for Software Security: Code Analysis, Malware Analysis, Reverse Engineering | 2025.4.7                                | 大型语言模型 （LLM） 最近已成为网络安全领域的强大工具，在恶意软件检测、生成和实时监控方面提供高级功能。大量研究探讨了它们在网络安全中的应用，证明了它们在识别新型恶意软件变体、分析恶意代码结构和增强自动威胁分析方面的有效性。已经提出了几种基于 transformer 的架构和 LLM 驱动的模型来改进恶意软件分析，利用语义和结构洞察来更准确地识别恶意意图。本研究全面回顾了恶意软件代码分析中基于 LLM 的方法，总结了最近的进展、趋势和方法。我们研究了著名的学术著作，以绘制研究前景，确定关键挑战，并突出 LLM 驱动的网络安全方面的新兴创新。此外，我们强调了静态分析在恶意软件检测中的作用，介绍了著名的数据集和专门的 LLM 模型，并讨论了支持自动化恶意软件研究的基本数据集。这项研究为研究人员和网络安全专业人员提供了宝贵的资源，提供了对 LLM 支持的恶意软件检测和防御策略的见解，同时概述了加强网络安全弹性的未来方向。 | [ 用于软件安全的大型语言模型 （LLM）：代码分析、恶意软件分析、逆向工程 --- Large Language Model (LLM) for Software Security: Code Analysis, Malware Analysis, Reverse Engineering](https://arxiv.org/abs/2504.07137) |
+| Primus: A Pioneering Collection of Open-Source Datasets for Cybersecurity LLM Training | 2025.2.16                               | 提供了一套全面的数据集，涵盖了所有主要训练阶段，包括预训练、指令微调和使用网络安全特定的自我反思数据的推理蒸馏。广泛的消融研究证明了它们在公共网络安全基准上的有效性。特别是，对我们的数据集进行持续的预训练使总分提高了 15.88%，而推理蒸馏导致安全认证 （CISSP） 提高了 10%。 | [Primus：用于网络安全 LLM 培训的开源数据集的开创性集合 --- 2502.11191 Primus: A Pioneering Collection of Open-Source Datasets for Cybersecurity LLM Training](https://arxiv.org/abs/2502.11191) |
 | RepresentThemAll: A Universal Learning Representation of Bug Reports |                                         | epresentThemAll 是一个通用的错误报告框架，它经过了两个精心设计的学习目标的预训练：一个是动态屏蔽语言模型，另一个是对比学习目标“发现自己”。Bug detection（漏洞检测） | [RepresentThemAll：错误报告的通用学习表示 ](https://ieeexplore.ieee.org/document/10172597) |
 | PassGPT                                                      |                                         | PassGPT，一个针对密码泄漏进行训练的用于密码生成的 LLM。Access control（访问控制） | [PassGPT: Password Modeling and (Guided) Generation with Large Language Models ](https://arxiv.org/abs/2306.01545) |
 | ZeroLeak                                                     | 2023.8.24                               | LLMs来修复程序中的旁路漏洞                                   | [ZeroLeak: Using LLMs for Scalable and Cost Effective Side-Channel Patching](https://arxiv.org/abs/2308.13062) |
@@ -157,6 +160,10 @@
 
 | 名称                                                   | 简介                                                         | 链接                                                         |
 | ------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Primus-Reasoning                                       | **Primus-Reasoning** 数据集包含来自 **CTI-Bench** 的多个网络安全推理任务（CTI-RCM、CTI-VSP、CTI-ATE、CTI-MCQ）。我们使用 *o1-preview* 来解决这些任务，生成**推理步骤**和**反射过程** 。 | [Primus-Reasoning · Datasets at Hugging Face](https://huggingface.co/datasets/trendmicro-ailab/Primus-Reasoning) |
+| Primus-Seed                                            | Primus-Seed 是一个高质量的网络安全文本数据集，由从 MITRE、维基百科和知名网络安全公司网站等知名来源抓取的数据以及我们的威胁专家手动收集的 CTI 组成 | [Primus-Seed · Datasets at Hugging Face](https://huggingface.co/datasets/trendmicro-ailab/Primus-Seed) |
+| Primus-FineWeb                                         | Primus-FineWeb 数据集是通过从 FineWeb（Common Crawl 的改进版本）中过滤网络安全相关文本来构建的。首先利用 Primus-Seed（一个手动整理的网络安全文本的高质量数据集）作为正面样本。然后，从 FineWeb 中抽取了 10 倍的数据量作为负样本，并基于 TinyBERT 训练了一个二进制网络安全分类器 。使用此分类器，为 FineWeb 中的每个文本分配一个介于 0 和 1 之间的分数，并筛选出分数大于 0.003 的文本，从而创建了具有 153 亿个标记的 Primus-FineWeb。然而，在发现大量重复内容后，进行了重复数据删除，将最终数据集减少到 25.7 亿个网络安全语料库。 | [Primus-FineWeb · Datasets at Hugging Face](https://huggingface.co/datasets/trendmicro-ailab/Primus-FineWeb) |
+| Primus-Instruct                                        | Primus-Instruct 数据集包含数百个专家策划的网络安全业务场景用例说明，以及由 GPT-4o 生成的回答。包括以下任务：解释检测到的警报、回答有关检索到的安全文档的问题、分析已执行的可疑命令、生成用于检索安全事件的查询语言、为 Terraform 配置提供安全建议和风险评估 | [Primus-Instruct · Datasets at Hugging Face](https://huggingface.co/datasets/trendmicro-ailab/Primus-Instruct) |
 | FormAI Dataset                                         | AI 生成数据集，包含 112,000 个可编译且独立的 C 程序。数据集中的所有程序均由 GPT-3.5-turbo 使用动态零样本提示技术生成，并包含不同复杂程度的程序。一些程序处理复杂的任务，例如网络管理、桌面游戏或加密，而另一些程序则处理更简单的任务，例如字符串操作。每个程序都根据代码中存在的漏洞进行标记，使用基于高效 SMT 的有界模型检查器 (ESBMC) 的形式验证方法。该策略最终识别漏洞，而不会报告误报（由于存在反例）或漏报（达到一定限度）。标记的样本可用于训练大型语言模型（LLMs），因为它们包含软件漏洞的确切程序位置。 | [FormAI Dataset](https://github.com/FormAI-Dataset/FormAI-dataset) |
 | security-paper-datasets                                | 网络安全数据集（427K Rows）                                  | [security-paper-datasets](https://huggingface.co/datasets/clouditera/security-paper-datasets) |
 | cyber-security-llm-data                                | 红队的开源数据集、Meta 的 Bot Adversarial Dialog 数据集      | [cyber-security-llm-data](https://github.com/balavenkatesh3322/cyber-security-llm-list) |
