@@ -1,6 +1,6 @@
 # Awesome-LLM4Security
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)  
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/liu673/Awesome-LLM4Security)  
 > 以下是关于使用NLP、KG、 GPT 进行网络安全模型研究的精选资源列表，包含模型/项目、论文、数据以及相关产品。
 
 ## 目录
