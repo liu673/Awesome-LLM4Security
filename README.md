@@ -206,6 +206,7 @@
 
 ### 其他资源
 
+- [网络安全精选列表：包含大量关于漏洞分析与网络安全、逆向工程和开发相关的博客、文章、论文和工具等](https://github.com/0xor0ne/awesome-list)
 - [2024 安全大模型技术与市场研究报告](https://www.csreviews.cn/wp-content/uploads/2024/06/SSAQ2024AIsecurity.pdf)
 
 - [Awesome GPTs (Agents) for Cybersecurity 攻防两方面的GPT Agent](https://github.com/fr0gger/Awesome-GPT-Agents)
