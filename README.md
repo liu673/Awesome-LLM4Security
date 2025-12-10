@@ -96,6 +96,7 @@
 | smartgrid-llm                                                | 在智能电网中实践大型语言模型的风险：威胁建模和验证           | [smartgrid-llm](https://github.com/jiangnan3/smartgrid-llm)  |
 | AISploit                                                     | AISploit 是一个 Python 包，旨在支持红队和渗透测试人员利用大型语言模型人工智能解决方案。它提供工具和实用程序来自动执行与基于人工智能的安全测试相关的任务。 | [AISploit ](https://github.com/hupe1980/aisploit)            |
 | PyRIT                                                        | 用于生成 AI 的 Python 风险识别工具 (PyRIT) 是一个开放访问自动化框架，使安全专业人员和机器学习工程师能够使用红队基础模型及其应用程序。 | [PyRIT](https://github.com/Azure/PyRIT)                      |
+| promptfoo                                                    | LLM红队测试和评估框架，支持对抗性攻击(PAIR, tree-of-attacks, crescendo)和CI/CD集成。包含modelaudit用于扫描ML模型的恶意代码和后门。 | [promptfoo](https://github.com/promptfoo/promptfoo)          |
 | Experiment AI Nutrition-Pro                                  | 用于威胁建模和安全审查以及使用 OpenAI GPT-4 的研究项目       | [Experiment AI Nutrition-Pro](https://github.com/xvnpw/ai-nutrition-pro-design-gpt4) |
 | SecurityGuardianAI                                           | SecurityGuardianAI 是一款主动式云安全分析应用程序，旨在帮助识别云基础设施中的潜在安全威胁和漏洞。应用程序应该能够提供实时监控、分析和报告，以跟踪云服务器上可能发生的任何恶意活动【**实际没有用LLMs**】 | [SecurityGuardianAI](https://github.com/vps/SecurityGuardianAI) |
 | Admyral                                                      | 一款开源网络安全自动化和调查助手。网络安全自动化和调查助理   | [Admyral](https://github.com/Admyral-Security/admyral)       |
