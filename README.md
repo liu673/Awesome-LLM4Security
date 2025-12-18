@@ -27,6 +27,7 @@
 
 | 名称                                                         | 简介                                                         | 链接                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Shannon                                                      | Shannon 是一款能够提供实际漏洞利用的 AI 渗透测试工具，而不仅仅是发出警报。在无提示、源感知的 XBOW 基准测试中达到了 96.15%的成功率。 | [shannon](https://github.com/KeygraphHQ/shannon)             |
 | Decepticon : Vibe Hacking Agent                              | 基于自主多智能体红队测试服务，利用 AI agents在攻击者自动化它们之前自动化红队测试 | [Decepticon](https://github.com/PurpleAILAB/Decepticon)      |
 | Awesome_GPT_Super_PromptingChatGPT                           | 越狱提示词、GPT 智能体提示词、提示词注入及保护。ChatGPT越狱、GPT助理提示泄漏、LLM提示安全性、超级Prompt、黑客Prompt、安全Prompt | [Awesome_GPT_Super_Prompting](https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting) |
 | Agentic Security                                             | 开源 AgenticLLM漏洞扫描器（安全扫描工具）。可定制的规则集或基于代理的攻击，全面的模糊测试适用于任何LLMs。 | [Agentic Security](https://github.com/msoedov/agentic_security) |
