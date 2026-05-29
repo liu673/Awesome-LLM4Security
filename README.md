@@ -106,6 +106,7 @@
 | MitreTagging                                                 | 开发 MITRE ATT&CK 标记模型的项目，该模型采用安全发现、描述和分析，并使用适当的 ATT&CK 策略和技术对其进行标记 | [MitreTagging](https://github.com/Lifebloom-AI/MitreTagging) |
 | CodeScanGPT                                                  | 基于 GPT 和 OpenAI API 构建的实验性静态应用程序安全测试 （SAST） 扫描程序。 | [CodeScanGPT](https://github.com/chasepd/CodeScanGPT)        |
 | Application of Large Language Models to DDoS Attack Detection | 用于分析大型语言模型在 DDoS 攻击检测中的应用的源代码和数据集 | [Application of Large Language Models to DDoS Attack Detection](https://github.com/ANRGUSC/llm_cybersecurity) |
+| EmbedGuard                                                   | Cross-layer detection and provenance attestation for adversarial embedding attacks in RAG systems. Defends against adversarial embeddings injected into the retrieval corpus to manipulate LLM behavior. MIT-licensed, IJCESEN 2026 paper.    | [EmbedGuard](https://github.com/neerazz/embedguard)<br />[Paper: IJCESEN 2026](https://doi.org/10.22399/ijcesen.4869) |
 
 
 
@@ -159,6 +160,7 @@
 | Vulcan: Automatic extraction and analysis of cyber threat intelligence from unstructured text | 2022.5.1                                | 从非结构化文本中自动提取和分析网络威胁情报                   | [Vulcan：从非结构化文本中自动提取和分析网络威胁情报 - ScienceDirect --- Vulcan: Automatic extraction and analysis of cyber threat intelligence from unstructured text - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0167404822001584?via%3Dihub) |
 | DNRTI: A Large-scale Dataset for Named Entity Recognition in Threat Intelligence | 2020.12.1                               | 大规模威胁情报命名实体识别数据集（DNRTI）                    | [DNRTI: A Large-Scale Dataset for Named Entity Recognition in Threat Intelligence ](https://ieeexplore.ieee.org/document/9343158?denied=) |
 | CTI View: APT Threat Intelligence Analysis System            | 2022.1.3                                | 面向海量非结构化网络空间威胁情报的文本提取和分析的新型自动化系统CTI View （CTI）由各个安全厂商发布。 | [CTI View: APT Threat Intelligence Analysis System ](https://www.semanticscholar.org/reader/456c6e1dc07cadfe0d0302a938aba2cebd673da3) |
+| EmbedGuard: Cross-Layer Detection and Provenance Attestation for Adversarial Embedding Attacks in RAG Systems | 2026 | IJCESEN 2026论文，提出跨层检测与来源证明机制防御RAG检索语料中的对抗性embedding攻击，包含完整开源参考实现。 | [DOI 10.22399/ijcesen.4869](https://doi.org/10.22399/ijcesen.4869)<br />[code](https://github.com/neerazz/embedguard) |
 
 
 ### 数据集
