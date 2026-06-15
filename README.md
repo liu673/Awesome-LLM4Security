@@ -4,6 +4,7 @@
 > 以下是关于使用NLP、KG、 GPT 进行网络安全模型研究的精选资源列表，包含模型/项目、论文、数据以及相关产品。
 
 ## 目录
+- [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) – An official OWASP security framework for protecting AI agent memory from poisoning, injection, and exfiltration attacks. Provides detection middleware, sanitization hooks, and audit logging for LangChain, LlamaIndex, and custom agent pipelines.
 
 - [简介](#简介)
 - [资源列表](#资源列表)
