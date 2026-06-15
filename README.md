@@ -4,7 +4,6 @@
 > 以下是关于使用NLP、KG、 GPT 进行网络安全模型研究的精选资源列表，包含模型/项目、论文、数据以及相关产品。
 
 ## 目录
-- [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) – An official OWASP security framework for protecting AI agent memory from poisoning, injection, and exfiltration attacks. Provides detection middleware, sanitization hooks, and audit logging for LangChain, LlamaIndex, and custom agent pipelines.
 
 - [简介](#简介)
 - [资源列表](#资源列表)
@@ -17,7 +16,7 @@
 - [附录](#附录)
   - [许可证](#许可证)
   - [Stars History](#点赞历史)  
-  
+
 
 ## 简介
 这是一个精心整理的网络安全模型资源汇总，旨在为研究人员、工程师及安全爱好者提供一个全面的参考集合。本项目覆盖了模型/项目、学术论文、数据集以及相关产品信息，帮助你深入了解和应用网络安全领域的最新进展。 
@@ -28,6 +27,7 @@
 
 | 名称                                                         | 简介                                                         | 链接                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| OWASP 智能体内存防护框架（OWASP Agent Memory Guard）         | 一款官方 OWASP 安全框架，用于保护 AI 智能体内存免受投毒、注入和数据窃取攻击。它为 LangChain、LlamaIndex 及自定义智能体流水线提供检测中间件、清理钩子和审计日志功能。 | [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) |
 | Shannon                                                      | Shannon 是一款能够提供实际漏洞利用的 AI 渗透测试工具，而不仅仅是发出警报。在无提示、源感知的 XBOW 基准测试中达到了 96.15%的成功率。 | [shannon](https://github.com/KeygraphHQ/shannon)             |
 | Decepticon : Vibe Hacking Agent                              | 基于自主多智能体红队测试服务，利用 AI agents在攻击者自动化它们之前自动化红队测试 | [Decepticon](https://github.com/PurpleAILAB/Decepticon)      |
 | Awesome_GPT_Super_PromptingChatGPT                           | 越狱提示词、GPT 智能体提示词、提示词注入及保护。ChatGPT越狱、GPT助理提示泄漏、LLM提示安全性、超级Prompt、黑客Prompt、安全Prompt | [Awesome_GPT_Super_Prompting](https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting) |
