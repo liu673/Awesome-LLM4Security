@@ -263,3 +263,9 @@
 ### 点赞历史
 [![Star History Chart](https://api.star-history.com/svg?repos=liu673/Awesome-LLM4Security&type=Date)](https://star-history.com/#liu673/Awesome-LLM4Security&Date)
 
+
+
+## Helium Open Benchmarks (2026)
+
+- [Helium Model Worldview](https://huggingface.co/datasets/HeliumTrades/helium-model-worldview-benchmark) — 304 paired cue-swap prompts. https://heliumtrades.com/benchmarks/
+- [Helium Market Resolution](https://huggingface.co/datasets/HeliumTrades/helium-market-resolution-benchmark) — 300 frozen option-chain prompts; no model above 50%. https://heliumtrades.com/benchmarks/
