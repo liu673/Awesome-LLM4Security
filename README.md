@@ -28,6 +28,7 @@
 | 名称                                                         | 简介                                                         | 链接                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | OWASP 智能体内存防护框架（OWASP Agent Memory Guard）         | 一款官方 OWASP 安全框架，用于保护 AI 智能体内存免受投毒、注入和数据窃取攻击。它为 LangChain、LlamaIndex 及自定义智能体流水线提供检测中间件、清理钩子和审计日志功能。 | [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) |
+| Dark-Moon | 自主式 AI 渗透测试平台，覆盖 Web、云、Active Directory、Kubernetes 与 API，采用按技术栈划分的进攻型子智能体，为每个漏洞提供可复现的证据链；模型无关，针对 Claude Opus 调优。 | [Dark-Moon](https://github.com/ASCIT31/Dark-Moon) |
 | Shannon                                                      | Shannon 是一款能够提供实际漏洞利用的 AI 渗透测试工具，而不仅仅是发出警报。在无提示、源感知的 XBOW 基准测试中达到了 96.15%的成功率。 | [shannon](https://github.com/KeygraphHQ/shannon)             |
 | Decepticon : Vibe Hacking Agent                              | 基于自主多智能体红队测试服务，利用 AI agents在攻击者自动化它们之前自动化红队测试 | [Decepticon](https://github.com/PurpleAILAB/Decepticon)      |
 | Awesome_GPT_Super_PromptingChatGPT                           | 越狱提示词、GPT 智能体提示词、提示词注入及保护。ChatGPT越狱、GPT助理提示泄漏、LLM提示安全性、超级Prompt、黑客Prompt、安全Prompt | [Awesome_GPT_Super_Prompting](https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting) |
