@@ -29,7 +29,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | reverse-skill                                                | 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库。支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端 | [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) |
 | OWASP 智能体内存防护框架（OWASP Agent Memory Guard）         | 一款官方 OWASP 安全框架，用于保护 AI 智能体内存免受投毒、注入和数据窃取攻击。它为 LangChain、LlamaIndex 及自定义智能体流水线提供检测中间件、清理钩子和审计日志功能。 | [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) |
-| Dark-Moon | 自主式 AI 渗透测试平台，覆盖 Web、云、Active Directory、Kubernetes 与 API，采用按技术栈划分的进攻型子智能体，为每个漏洞提供可复现的证据链；模型无关，针对 Claude Opus 调优。 | [Dark-Moon](https://github.com/ASCIT31/Dark-Moon) |
+| Dark-Moon                                                    | 自主式 AI 渗透测试平台，覆盖 Web、云、Active Directory、Kubernetes 与 API，采用按技术栈划分的进攻型子智能体，为每个漏洞提供可复现的证据链；模型无关，针对 Claude Opus 调优。 | [Dark-Moon](https://github.com/ASCIT31/Dark-Moon)           |
 | Shannon                                                      | Shannon 是一款能够提供实际漏洞利用的 AI 渗透测试工具，而不仅仅是发出警报。在无提示、源感知的 XBOW 基准测试中达到了 96.15%的成功率。 | [shannon](https://github.com/KeygraphHQ/shannon)             |
 | LLMVault                                                    | 面向 OWASP LLM Top 10 2025 的 CTF 风格 LLM 安全训练靶场，包含 Prompt Injection、RAG 安全、Agent 安全和 GenAI 渗透测试等实验。 | [LLMVault](https://github.com/CyberSunil/LLMVault) |
 | Decepticon : Vibe Hacking Agent                              | 基于自主多智能体红队测试服务，利用 AI agents在攻击者自动化它们之前自动化红队测试 | [Decepticon](https://github.com/PurpleAILAB/Decepticon)      |
@@ -56,6 +56,7 @@
 | ChatCVE                                                      | 帮助组织分类和聚合 CVE（常见漏洞和暴露）信息。通过利用最先进的自然语言处理，ChatCVE 使每个人都可以访问详细的软件物料清单 (SBOM) 数据 | [ChatCVE](https://github.com/jasona7/ChatCVE)                |
 | CyberBase                                                    | CyberBase 是网络安全的实验基础模型。 （llama-2-13b -> lmsys/vicuna-13b-v1.5-16k -> CyberBase） | [CyberBase-13b](https://huggingface.co/CyberNative/CyberBase-13b) |
 | Colibri                                                      | 对话式网络安全模型，由dolphin-2.9-llama3-8b 进行微调         | [Colibri_8b_v0.1](https://huggingface.co/CyberNative-AI/Colibri_8b_v0.1) |
+| Llama-Primus                                                | Trend Micro 开源的网络安全基础模型系列，覆盖持续预训练、指令微调和推理蒸馏三个方向；与下方 Primus 数据集和论文条目对应。 | [Llama-Primus-Base](https://huggingface.co/trendmicro-ailab/Llama-Primus-Base)<br />[Llama-Primus-Merged](https://huggingface.co/trendmicro-ailab/Llama-Primus-Merged)<br />[Llama-Primus-Reasoning](https://huggingface.co/trendmicro-ailab/Llama-Primus-Reasoning) |
 | SecurityGPT                                                  | 【目前没有开源，需要申请】                                   | [SecurityGPT](https://huggingface.co/pki/SecurityGPT)        |
 | SecGPT                                                       | SecGPT的目标是结合LLM，对网络安全进行更多贡献，包括渗透测试、红蓝对抗、CTF比赛和其他方面。汇总现有的插件功能，并通过AI进行决策。基于这些决策，它构建基础行为逻辑。然后，根据此逻辑，它调用本地插件功能，尝试完成网站渗透、漏洞扫描、代码审计和报告撰写等任务 | [SecGPT](https://github.com/ZacharyZcR/SecGPT)               |
 | SecGPT-云起无垠                                              | 网络安全大模型。探索各种网络安全任务，漏洞分析、溯源分析、流量分析、攻击研判、命令解释、网安知识问答、高质量网络安全训练集、DPO强化学习 | [secgpt](https://github.com/Clouditera/secgpt)               |
