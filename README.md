@@ -265,5 +265,5 @@
 本项目遵循 [MIT](LICENSE) 许可证
 
 ### 点赞历史
-[![Star History Chart](https://api.star-history.com/svg?repos=liu673/Awesome-LLM4Security&type=Date)](https://star-history.com/#liu673/Awesome-LLM4Security&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=liu673/Awesome-LLM4Security&type=Date)](https://star-history.dera.page/#liu673/Awesome-LLM4Security&Date)
 
