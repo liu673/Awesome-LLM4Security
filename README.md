@@ -232,6 +232,7 @@
 - [下一代网络安全应用程序：如何开发和部署 AI/ML、搜索和分析应用程序以转变企业网络安全](https://www.snowflake.com/next-generation-cybersecurity-applications/?utm_source=google&utm_medium=paidsearch&utm_campaign=na-us-en-nb-cybersecurity-phrase&utm_content=go-rsa-evg-eb-next-generation-cybersecurity-applications&utm_term=c-g-cyber%20security-p-684401030637&gad_source=1&gclid=CjwKCAjw9IayBhBJEiwAVuc3fqPNPtWoWA8ZagWFXFCV21LxC4l4S9xBoBT6CHLcNIuT1Wd_0sVqihoCvlkQAvD_BwE)
 
 - [When LLMs Meet Cybersecurity: A Systematic Literature Review](https://github.com/tmylla/Awesome-LLM4Cybersecurity)
+- [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for exposed secrets while recognizing public browser credentials that should not be treated as leaks.
 
 ### 参考资源
 
