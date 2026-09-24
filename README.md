@@ -191,6 +191,7 @@
 | CIC_IDS2017、N_BaloT、original_data                    | DDoS攻击检测                                                 | https://drive.google.com/drive/folders/1rgXwWYntIh-tgvq2kqPINhzpU4QteoPX?usp=sharing |
 | SecurityGPT                                            | 用于 cybsec 研究问答微调的数据集                             | https://huggingface.co/datasets/pki/SecurityGPT              |
 | cybersecurity-dataset                                  | 网络安全数据集列表                                           | [网络安全数据集--列表](https://datasetsearch.research.google.com/search?src=0&query=cybersecurity&docid=L2cvMTF0eHRkMjFtZw%3D%3D&filters=WyJbXCJsaWNlbnNlX2NsYXNzXCIsW1wiY29tbWVyY2lhbFwiXV0iXQ%3D%3D&property=bGljZW5zZV9jbGFzcw%3D%3D) |
+| Orca AI Incident Archive                               | 真实世界 AI 智能体（Agent）安全事件的开放数据库：354 条记录（2025-01 至 2026-09），每条附至少一个可点击的一手来源，并标注是否有确认受害方（real_harm）、AI 参与程度（已确认 / 有争议 / 未证实）与类型（事件 / 漏洞 / 研究 / 报告 / 政策）；覆盖间接提示注入、MCP、智能体供应链、沙箱逃逸等。提供 JSON/CSV 导出（JSON Schema 校验），CC BY 4.0。 | https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive |
 
 
 ### 相关产品
