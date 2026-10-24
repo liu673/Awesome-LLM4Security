@@ -112,6 +112,7 @@
 | CodeScanGPT                                                  | 基于 GPT 和 OpenAI API 构建的实验性静态应用程序安全测试 （SAST） 扫描程序。 | [CodeScanGPT](https://github.com/chasepd/CodeScanGPT)        |
 | Application of Large Language Models to DDoS Attack Detection | 用于分析大型语言模型在 DDoS 攻击检测中的应用的源代码和数据集 | [Application of Large Language Models to DDoS Attack Detection](https://github.com/ANRGUSC/llm_cybersecurity) |
 | EmbedGuard                                                   | Cross-layer detection and provenance attestation for adversarial embedding attacks in RAG systems. Defends against adversarial embeddings injected into the retrieval corpus to manipulate LLM behavior. MIT-licensed, IJCESEN 2026 paper.    | [EmbedGuard](https://github.com/neerazz/embedguard)<br />[Paper: IJCESEN 2026](https://doi.org/10.22399/ijcesen.4869) |
+| BountyGuard                                                  | Open-source prompt-injection firewall, published honeypot blocklist, and MCP security server that screens untrusted GitHub repositories and classifies open-source issues (`SAFE_WITH_ESCROW` / `SAFE_NO_ESCROW` / `QUARANTINE`) before coding agents execute tasks. | [BountyGuard](https://github.com/doomsday-network/bounty-guard) |
 
 
 
