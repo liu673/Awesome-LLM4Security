@@ -27,6 +27,7 @@
 
 | 名称                                                         | 简介                                                         | 链接                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| dsh-jailbreak | DeepSeek Harness 破甲插件：在请求边界改写出站 `/chat/completions`，不动宿主一行代码。`seed-prim` 执行态种子覆盖 20 类拒答场景，三臂可复现 ASR `b0-raw 0.0% → primitive 19.6% → seed-prim 45.0%`（n=169/184/60），observed 目标覆盖 19/20，良性能力代价 Δ=0.0pt（24/24 判分）；默认关闭、off 逐字透传、每次改写落 manifest 与 promptSha256 可审计。带可选 SCOPE 阀门 | [dsh-jailbreak](https://github.com/xqpsec/dsh-jailbreak) |
 | reverse-skill                                                | 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库。支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端 | [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) |
 | OWASP 智能体内存防护框架（OWASP Agent Memory Guard）         | 一款官方 OWASP 安全框架，用于保护 AI 智能体内存免受投毒、注入和数据窃取攻击。它为 LangChain、LlamaIndex 及自定义智能体流水线提供检测中间件、清理钩子和审计日志功能。 | [OWASP Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) |
 | Dark-Moon                                                    | 自主式 AI 渗透测试平台，覆盖 Web、云、Active Directory、Kubernetes 与 API，采用按技术栈划分的进攻型子智能体，为每个漏洞提供可复现的证据链；模型无关，针对 Claude Opus 调优。 | [Dark-Moon](https://github.com/ASCIT31/Dark-Moon)           |
