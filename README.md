@@ -112,6 +112,7 @@
 | CodeScanGPT                                                  | 基于 GPT 和 OpenAI API 构建的实验性静态应用程序安全测试 （SAST） 扫描程序。 | [CodeScanGPT](https://github.com/chasepd/CodeScanGPT)        |
 | Application of Large Language Models to DDoS Attack Detection | 用于分析大型语言模型在 DDoS 攻击检测中的应用的源代码和数据集 | [Application of Large Language Models to DDoS Attack Detection](https://github.com/ANRGUSC/llm_cybersecurity) |
 | EmbedGuard                                                   | Cross-layer detection and provenance attestation for adversarial embedding attacks in RAG systems. Defends against adversarial embeddings injected into the retrieval corpus to manipulate LLM behavior. MIT-licensed, IJCESEN 2026 paper.    | [EmbedGuard](https://github.com/neerazz/embedguard)<br />[Paper: IJCESEN 2026](https://doi.org/10.22399/ijcesen.4869) |
+| pwner | 由本地大模型驱动的自主网络渗透测试命令行工具。将 nmap、nuclei、impacket、netexec、kerbrute 封装为工具调用，支持任意 OpenAI 兼容端点（Ollama、Lemonade、llama.cpp），可完全离线运行；每次工具调用都会在模型之外校验授权范围，入侵性操作需操作员显式批准。AGPL-3.0。 | [pwner](https://github.com/0x45dd/pwner) |
 
 
 
